@@ -8,7 +8,7 @@
 
 #header #header-img img{
     width: 400px;
-    margin: 2rem 0 1rem 3rem;
+    padding:20px 20px;
 }
 
 #header{
@@ -179,25 +179,21 @@ iframe{
     flex-direction: column;
     background: #ccc;
     padding-bottom: 4rem;
-    width: 100%;
     padding-top: 1.4rem;
 }
 
 #footer ul{
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    margin-left: 70%;
     background: #ccc;
+    margin: 0 0 0 auto;
 }
 
 .footer-link{
     margin: 10px 20px;
     list-style: none;
-    
 }
 
-.footer-link a{
+.footerUl .footer-link a{
     text-decoration: none;
     font-size: 1.7rem;
     background:#ccc;;
@@ -208,5 +204,53 @@ iframe{
     color: rgb(97, 95, 95);
     background: #ccc;
     font-size: 23px;
-    margin-left: 70%;
+    display: block;
+    margin:0 0 0 auto;
 }
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    main{
+        position: relative;
+        margin-top: 300px;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    section article .two{ 
+        position: relative;
+        left:1rem;
+    }
+    
+    section article .one{ 
+        position: relative;
+        left:1rem;
+    }
+    #cards .card{
+        width: 440px;
+        height: 550px;
+        margin: 1rem 0;
+    }
+    
+    #footer p{
+        display: block;
+        margin:0 auto;
+    }
+}   
