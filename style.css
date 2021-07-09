@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+}
+
+#header #header-img img{
+    width: 400px;
+    margin: 2rem 0 1rem 3rem;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.nav-link{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 1rem 3rem;
+}
+
+main{
+    width: 100%;
+    margin-top: 120px;
+}
+
+main > h1{
+    text-align: center;
+    margin: 1rem 0;
+    color: #000;
+    padding: 1rem 0;
+}
+
+#form input[type="email"]{
+    width: 350px;
+    padding: 10px;
+    font-size: 1.2rem;
+    height: 35px;
+    display: block;
+    margin: 1rem auto;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+#form button{
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    padding: .7rem ;
+    background-color:rgb(230, 202, 46);
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 3px;
+    border: 1px solid rgb(230, 202, 46);
+    cursor: pointer;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+section article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 0;
+    width: 100%;
+    padding: 20px;
+}
+
+article .icon{
+    color: #FE900A;
+    font-size: 4rem;
+    
+}
+
+article .text h1{
+    font-size: 2rem;
+}
+
+article .text p{
+    font-size: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+section article .two{ 
+    position: relative;
+    left:5rem;
+}
+
+section article .one{ 
+    position: relative;
+    left:-2rem;
+}
+
+section article .iMar{ 
+    position: relative;
+    left:3.5rem;
+}
+
+
+
